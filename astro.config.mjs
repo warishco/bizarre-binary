@@ -6,7 +6,8 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Bizarre Binary Docs',
+			description: 'Welcome to Bizarre Binary, your trusted companion for exploring the vast expanse of space.',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
