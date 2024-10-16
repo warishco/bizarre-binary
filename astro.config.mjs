@@ -8,10 +8,20 @@ export default defineConfig({
 		starlight({
 			title: 'Bizarre Binary Docs',
 			description: 'Welcome to Bizarre Binary, your trusted companion for exploring the vast expanse of space.',
+			logo: {
+				src: './src/assets/bizarre-binary-logo.png',
+				replacesTitle: true,
+			},
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/warishco',
+				linkedin: 'https://www.linkedin.com/in/warish',
+				'x.com': 'https://x.com/warishwrites',
 			},
 			sidebar: [
+				{
+					label: 'Getting Started',
+					autogenerate: { directory: 'getting-started' },
+				},
 				{
 					label: 'Guides',
 					items: [
