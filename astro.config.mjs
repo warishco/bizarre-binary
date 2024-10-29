@@ -31,9 +31,10 @@ export default defineConfig({
 						'cosmic-navigation/dealing-with-gravity-and-orbit', // shorthand for an internal link
 					],
 				},
-				{ label: 'Example page', link: '/example/' },
-				{ label: 'Visit my portfolio', link: 'https://warish.co/' }, // An external link to the NASA website.
+				{ label: 'Spaceships and Rockets', link: 'https://www.nasa.gov/humans-in-space/spaceships-and-rockets/' },
+				{ label: 'Space Movie', link: 'https://en.wikipedia.org/wiki/Interstellar_(film)' }, // An external link to the NASA website.
 			],
+			tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 2 },
 			customCss: [
 				// Path to your custom CSS file
 				'./src/styles/style.css',
