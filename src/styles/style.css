@@ -1,7 +1,5 @@
 /* Dark mode colors. */
 :root {
-    --sl-content-width: 50rem;
-    --sl-text-5xl: 3.5rem;
 	--sl-color-accent-low: #36113e;
 	--sl-color-accent: #a400c0;
 	--sl-color-accent-high: #e3b6ed;
@@ -16,7 +14,6 @@
 }
 /* Light mode colors. */
 :root[data-theme='light'] {
-	--sl-color-accent-low: #ebc9f3;
     --sl-color-accent-low: #ebc9f3;
 	--sl-color-accent: #a700c3;
 	--sl-color-accent-high: #4e0e5b;
@@ -33,8 +30,5 @@
 
 /* Change the font family of h1 headings */
 h1 {
-/* Add this new rule to change the font family of headings */
-h1, h2, h3, h4, h5, h6 {
-    font-family: monospace;
-}
+	font-family: monospace;
 }
